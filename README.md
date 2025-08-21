@@ -47,12 +47,35 @@ Model Waveform
 
 <img width="703" height="679" alt="image" src="https://github.com/user-attachments/assets/e7c7c7f8-ccf2-41ac-b1f3-325989941a6f" />
 
-Program
+Program :
+Am=4.9;
+Ac=9.8;
+fm=390;
+fc=3900;
+fs=39000;
+t=0:1/fs:2/fm;
+m=Am*cos(2*3.14*fm*t);
+subplot(3,1,1);
+plot(t,m);
+c=Ac*cos(2*3.14*fc*t);
+subplot(3,1,2);
+plot(t,c);
+s1=(Ac+m).*cos(2*3.14*fc*t);
+s2=(Ac-m).*cos(2*3.14*fc*t);
+s=s1-s2;
+subplot(3,1,3);
+plot(t,s);
 
-Output Graph
+
+Output Graph :
+<img width="1916" height="887" alt="DSBSC output" src="https://github.com/user-attachments/assets/b7ea9bb7-d019-4746-83db-31826d0857a1" />
 
 
-Tablular Column
+
+
+Tablular Column :
+![dsbsc pic](https://github.com/user-attachments/assets/9684c380-1b4b-40cb-8a71-fd279818c8e3)
+
 
 
 Result
