@@ -68,7 +68,8 @@ plot(t,s);
 
 
 Output Graph :
-<img width="1916" height="887" alt="DSBSC output" src="https://github.com/user-attachments/assets/b7ea9bb7-d019-4746-83db-31826d0857a1" />
+<img width="1917" height="887" alt="DSBSC output" src="https://github.com/user-attachments/assets/7783d496-ce8c-4db2-9cb7-e867ce281aa5" />
+
 
 
 
